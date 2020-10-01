@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    max-width: 1024px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    
+}
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content{
+    display: flex;
+}
+
+.leftside{
+    width: 200px;
+    float: left;
+    background-color: bisque; 
+}
+
+.center{
+    width: auto;
+}
+
+.rightside{
+    width: 200px;
+    float: right;
+    background-color: antiquewhite;
+}
+
+.numbers > input{
+    margin: 10;
+    
+    border-width: 2;
+}
